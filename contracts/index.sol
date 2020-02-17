@@ -5,7 +5,6 @@ contract WolframAlpha is usingOraclize {
 
     string public temperature;
 
-    event LogNewTemperatureMeasure(string temperature);
 
     constructor() public payable{
         //update(); // Update on contract creation...
